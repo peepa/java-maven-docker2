@@ -17,4 +17,10 @@ public class AppTest {
     {
         Assert.assertTrue(false);
     }
+
+    @Test
+    public void testApp()
+    {
+        Assert.assertTrue(true);
+    }
 }
