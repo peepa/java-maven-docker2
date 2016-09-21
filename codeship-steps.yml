@@ -4,5 +4,5 @@
   - name: maven-clean
     service: myapp
     command: mvn clean
-  - name: maven-test
+  - service: myapp
     command: mvn test
