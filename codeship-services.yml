@@ -6,4 +6,3 @@ myapp:
 myapp2:
   build:
     image: myapp
-    dockerfile_path: Dockerfile

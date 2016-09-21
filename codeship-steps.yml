@@ -1,8 +1,12 @@
 #lets test codeship
 - type: parallel
   steps:
-  - name: maven-clean
-    service: myapp
-    command: mvn clean
+  - type:
+    - name: maven-clean
+      service: myapp
+      command: mvn clean
+    - name: maven-compile
+      service: myapp2
+      command: mvn compile
   - service: myapp
     command: mvn test
