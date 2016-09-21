@@ -7,3 +7,7 @@
   - name: maven-test
     service: myapp
     command: mvn test
+
+- name: another-clean
+  service: myapp
+  command: mvn clean
