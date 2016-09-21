@@ -2,5 +2,8 @@ myapp:
   build:
     image: myapp
     dockerfile_path: Dockerfile
+
 myapp2:
-  image: myapp
+  build:
+    image: myapp
+    dockerfile_path: Dockerfile
